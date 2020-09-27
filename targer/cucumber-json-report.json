@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 39442135800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search for multiple products",
+        "description": "",
+        "id": "funcionality;search-for-multiple-products;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 68500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1707661900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on Argos homepage",
+            "match": {
+              "location": "Homepage_Accountbutton.user_is_on_Argos_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58330725800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user search for \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage_ScenarioOutlineSteps.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be able to search multiple products",
+            "match": {
+              "location": "Homepage_ScenarioOutlineSteps.user_should_be_able_to_search_multiple_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@MultipleInput"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 42544055100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Search for multiple products",
+        "description": "",
+        "id": "funcionality;search-for-multiple-products;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 46300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 477900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on Argos homepage",
+            "match": {
+              "location": "Homepage_Accountbutton.user_is_on_Argos_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45048768100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user search for \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage_ScenarioOutlineSteps.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be able to search multiple products",
+            "match": {
+              "location": "Homepage_ScenarioOutlineSteps.user_should_be_able_to_search_multiple_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@MultipleInput"
+          }
+        ]
+      }
+    ],
+    "name": "Funcionality",
+    "description": "",
+    "id": "funcionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/shagu/IdeaProjects/BDDFramework/BDDFramework/src/test/Resourses/Homepage.feature"
+  }
+]

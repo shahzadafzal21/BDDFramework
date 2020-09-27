@@ -1,0 +1,21 @@
+Feature: Funcionality
+
+  @MultipleInput
+  Scenario Outline: Search for multiple products         [90m# C:/Users/shagu/IdeaProjects/BDDFramework/BDDFramework/src/test/Resourses/Homepage.feature:19[0m
+    [36mGiven [0m[36mUser is on Argos homepage[0m
+    [36mWhen [0m[36muser search for "<products>"[0m
+    [36mThen [0m[36muser should be able to search multiple products[0m
+
+    Examples: 
+
+  @MultipleInput
+  Scenario Outline: Search for multiple products         [90m# C:/Users/shagu/IdeaProjects/BDDFramework/BDDFramework/src/test/Resourses/Homepage.feature:25[0m
+    [32mGiven [0m[32mUser is on Argos homepage[0m                      [90m# Homepage_Accountbutton.user_is_on_Argos_homepage()[0m
+    [32mWhen [0m[32muser search for "[0m[32m[1mnike[0m[32m"[0m                          [90m# Homepage_ScenarioOutlineSteps.user_search_for(String)[0m
+    [32mThen [0m[32muser should be able to search multiple products[0m [90m# Homepage_ScenarioOutlineSteps.user_should_be_able_to_search_multiple_products()[0m
+
+  @MultipleInput
+  Scenario Outline: Search for multiple products         [90m# C:/Users/shagu/IdeaProjects/BDDFramework/BDDFramework/src/test/Resourses/Homepage.feature:26[0m
+    [32mGiven [0m[32mUser is on Argos homepage[0m                      [90m# Homepage_Accountbutton.user_is_on_Argos_homepage()[0m
+    [32mWhen [0m[32muser search for "[0m[32m[1mpuma[0m[32m"[0m                          [90m# Homepage_ScenarioOutlineSteps.user_search_for(String)[0m
+    [32mThen [0m[32muser should be able to search multiple products[0m [90m# Homepage_ScenarioOutlineSteps.user_should_be_able_to_search_multiple_products()[0m

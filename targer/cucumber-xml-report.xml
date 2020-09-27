@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="187.074013">
+<testcase classname="Funcionality" name="Search for multiple products" time="99.480626">
+<system-out><![CDATA[Given User is on Argos homepage.............................................passed
+When user search for "nike".................................................passed
+Then user should be able to search multiple products........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Funcionality" name="Search for multiple products 2" time="87.593387">
+<system-out><![CDATA[Given User is on Argos homepage.............................................passed
+When user search for "puma".................................................passed
+Then user should be able to search multiple products........................passed
+]]></system-out>
+</testcase>
+</testsuite>
