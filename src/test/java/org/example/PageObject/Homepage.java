@@ -10,7 +10,7 @@ public class Homepage extends DriverFactory {
     @FindBy(id = "searchTerm")
     WebElement SearchTextBox;
 
-    @FindBy(className = "_1gqeQ")
+    @FindBy(className = "_2mKaC")
     WebElement magnifierGlass;
 
     @FindBy(xpath = "//span[contains(text(),'Account')]")

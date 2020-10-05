@@ -66,7 +66,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 27790831499,
+  "duration": 22019070500,
   "status": "passed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "Homepage_Accountbutton.user_is_on_Argos_homepage()"
 });
 formatter.result({
-  "duration": 1126180900,
+  "duration": 1029800300,
   "status": "passed"
 });
 formatter.match({
@@ -118,22 +118,22 @@ formatter.match({
   "location": "Homepage_ScenarioOutlineSteps.user_search_for(String)"
 });
 formatter.result({
-  "duration": 16369169299,
+  "duration": 12022930000,
   "status": "passed"
 });
 formatter.match({
   "location": "Homepage_ScenarioOutlineSteps.user_should_be_able_to_search_multiple_products()"
 });
 formatter.result({
-  "duration": 34600,
+  "duration": 34000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 63400,
+  "duration": 11774696900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 22458327499,
+  "duration": 21242861900,
   "status": "passed"
 });
 formatter.scenario({
@@ -172,7 +172,7 @@ formatter.match({
   "location": "Homepage_Accountbutton.user_is_on_Argos_homepage()"
 });
 formatter.result({
-  "duration": 2307099,
+  "duration": 434200,
   "status": "passed"
 });
 formatter.match({
@@ -185,18 +185,18 @@ formatter.match({
   "location": "Homepage_ScenarioOutlineSteps.user_search_for(String)"
 });
 formatter.result({
-  "duration": 17862720900,
+  "duration": 19940245400,
   "status": "passed"
 });
 formatter.match({
   "location": "Homepage_ScenarioOutlineSteps.user_should_be_able_to_search_multiple_products()"
 });
 formatter.result({
-  "duration": 37899,
+  "duration": 34200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 36401,
+  "duration": 12441213900,
   "status": "passed"
 });
 });
