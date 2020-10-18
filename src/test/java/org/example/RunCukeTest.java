@@ -8,12 +8,12 @@ import org.junit.runner.RunWith;
 
 
 
-@CucumberOptions(features = "C:\\Users\\shagu\\IdeaProjects\\BDDFramework\\BDDFramework\\src\\test\\Resourses\\Homepage.feature",tags={"@MultipleInput"},
+@CucumberOptions(features = "C:\\Users\\shagu\\IdeaProjects\\BDDFramework\\BDDFramework\\src\\test\\Resourses\\Icelandhomepage.feature",tags={"@IcelandSmoke"}
 
-        plugin = {"html:target/cucumber-html-report",
-                 "json:target/cucumber-json-report.json",
-                 "junit:target/cucumber-xml-report.xml",
-                 "pretty:target/cucumber-pretty-report.txt"}
+        //plugin = {"html:target/cucumber-html-report",
+                 //"json:target/cucumber-json-report.json",
+                 //"junit:target/cucumber-xml-report.xml",
+                // "pretty:target/cucumber-pretty-report.txt"}
 )
 
 

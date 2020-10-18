@@ -1,5 +1,6 @@
 package org.example.BaseClassPackage;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -25,8 +26,8 @@ public class DriverFactory {
 
     public void openbrowser() throws MalformedURLException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\chromedriver.exe");
-        //WebDriverManager.chromedriver().setup();
+        //System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
 
         driver = new ChromeDriver();
 
@@ -41,7 +42,8 @@ public class DriverFactory {
         //driver = new RemoteWebDriver(new URL(URL), caps);
 
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.get("https://www.argos.co.uk/");
+        //driver.get("https://www.argos.co.uk/");
+        driver.get("https://www.iceland.co.uk/");
         driver.manage().window().maximize();
     }
     public void closebrowser() throws InterruptedException {
